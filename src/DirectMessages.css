@@ -1,0 +1,23 @@
+.directMessages{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.avatarImage .MuiAvatar-root{
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+.others h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+.others p{
+    font-size: 15px;
+    color: gray;
+}
+.directMessages:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}

@@ -1,0 +1,132 @@
+.postsContent{
+    width: 660px;
+    margin-bottom: 40px;  
+}
+.postsContent__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.postContents__image{
+    width: 100%;
+    margin-top: 10px;
+}
+.postContents__image img{
+    height: auto;
+    max-width: 660px;
+}
+.left h4{
+    margin-left: 8px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.icons__left .MuiSvgIcon-root{
+    padding-right: 10px;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    
+}
+.icons__right .MuiSvgIcon-root{
+    color: rgb(39, 39, 39);
+    font-size: 32px;
+}
+.icons__left .MuiSvgIcon-root:hover, .icons__right .MuiSvgIcon-root:hover{
+    cursor: pointer;
+}
+.likes >p{
+    font-size: 13px;
+    color: rgb(59, 58, 58);
+    margin-left: 10px;
+}
+.timestamp > p{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+.horizontal{
+    border: 0.5px solid  rgb(233, 232, 232);
+    color: rgb(197, 196, 196);
+    margin-top: 15px;
+    width: 670px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+    justify-content: space-between;
+}
+.inputs > input{
+    padding: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+.inputs >p {
+    font-weight: bold;
+    color: rgb(30, 146, 255);
+}
+.icons__left .likeButton:active{
+    color: red;
+}
+@media(max-width:575px){
+    .postsContent{
+        width: 450px;
+        margin-bottom: 40px;  
+    }
+    .postsContent__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .postContents__image{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .postContents__image img{
+        height: auto;
+        max-width: 450px;
+    }
+    .horizontal{
+        border: 0.5px solid  rgb(233, 232, 232);
+        color: rgb(197, 196, 196);
+        margin-top: 15px;
+        width: 500px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+
+    .postsContent{
+        width: 500px;
+        margin-bottom: 40px;  
+    }
+    .postsContent__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .postContents__image{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .postContents__image img{
+        height: auto;
+        max-width: 500px;
+    }
+    .horizontal{
+        border: 0.5px solid  rgb(233, 232, 232);
+        color: rgb(197, 196, 196);
+        margin-top: 15px;
+        width: 500px;
+    }
+
+}

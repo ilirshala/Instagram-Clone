@@ -1,0 +1,205 @@
+.direct{
+    width: 970px;
+
+    margin: auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    display: flex;
+}
+.direct__leftcontent{
+    border-right: 1px solid lightgray;
+    flex: 0.33;
+    /* border: 1px solid black; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.direct__rightcontent{
+    flex: 0.7;
+    /* border: 1px solid lightgray; */
+
+}
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.username > h4{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.username .MuiSvgIcon-root{
+    font-size: 35px;
+}
+.write{
+   display:block;
+   margin: auto;
+}
+.write .MuiSvgIcon-root{
+    margin-top: -48px;
+    float: right;
+    font-size: 35px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+.primaryMessages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.primaryMessages .h1,.h2{
+    font-size: 16px; 
+    padding: 5px 10px; 
+    text-transform: uppercase;
+}
+.primaryMessages .h3{
+    font-size: 16px; 
+    padding: 5px 12px; 
+    
+}
+.primaryMessages .h1,.h2, .h3:hover{
+    cursor: pointer;
+}
+
+.primaryMessages .h1> h4{
+    font-weight: 500;
+}
+
+.primaryMessages .h2> h4{
+    font-weight: 500;
+    color: rgb(173, 173, 173);
+}
+.primaryMessages .h3> h4{
+    font-weight: bold;
+    color: rgb(14, 113, 212)
+}
+.horizontalRow{
+    /* height: 1px; */
+    border: 0.5px solid black;
+    width: 98px;
+}
+.horizontalRow1{
+    border: 0.5px solid lightgray;
+}
+
+
+.icon{
+    height: 55px;
+    width: 55px;
+    padding: 20px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin: auto;
+}
+.icon .MuiSvgIcon-root{
+    height: 60px;
+    width: 60px;
+}
+.container{
+    width:500px;
+
+    margin: auto;
+    margin-top: 250px;
+}
+.title > h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.subtitle > p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: gray;
+}
+.button button{
+    display: block;
+    margin: auto;
+    padding: 8px 20px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius:5%;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+}
+.button button:hover{
+    background-color: rgb(50, 176, 255);
+    cursor: pointer;
+}
+@media (max-width:575px){
+    .direct__rightcontent{
+        flex: 0.2;
+        /* border: 1px solid lightgray; */
+    
+    }
+    .direct{
+        width: 505px;
+    
+        /* margin: auto; */
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-top: 20px;
+        display: flex;
+    }
+    .container{
+        width:200px;
+    
+        margin: auto;
+        margin-top: 250px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .direct__rightcontent{
+        flex: 0.4;
+        /* border: 1px solid lightgray; */
+    
+    }
+    .direct{
+        width: 600px;
+    
+        margin: auto;
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-top: 20px;
+        display: flex;
+    }
+    .container{
+        width:300px;
+    
+        margin: auto;
+        margin-top: 250px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .direct__rightcontent{
+        flex: 0.4;
+        /* border: 1px solid lightgray; */
+    
+    }
+    .direct{
+        width: 600px;
+    
+        margin: auto;
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-top: 20px;
+        display: flex;
+    }
+    .container{
+        width:300px;
+    
+        margin: auto;
+        margin-top: 250px;
+    }
+}

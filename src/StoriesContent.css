@@ -1,0 +1,46 @@
+.content{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+}
+.content__image > img{
+    height:60px;
+    border-radius: 100%;
+}
+.content > p{
+    display: block;
+   font-size: 12px;
+}
+.content__image{
+    margin-left: 8px;
+    height:60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 2px solid red;
+}
+
+@media(max-width:575px){
+    .content{
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        margin-left: 8px;
+        
+    }
+    .content__image > img{
+        height:35px;
+        border-radius: 100%;
+    }
+    .content > p{
+        display: block;
+       font-size: 12px;
+    }
+    .content__image{
+        margin-left: 8px;
+        height:35px;
+        width: 35px;
+        border-radius: 100%;
+        border: 2px solid red;
+    }
+}

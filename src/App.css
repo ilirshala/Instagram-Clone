@@ -1,0 +1,12 @@
+.app__content{
+    width: 970px;
+    margin: auto;
+    display: flex;
+}
+@media(max-width:575px){
+    .app__content{
+        width: 500px;
+        margin: auto;
+        display: flex;
+    }
+}

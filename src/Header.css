@@ -1,0 +1,154 @@
+.header{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 970px;
+    margin: auto;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left > img{
+    margin-left: 20px;
+    height: 30px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: rgb(241, 241, 241);
+    width: 220px;
+}
+.header__input > input{
+    border: none;
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    width: 220px;
+}
+.header__input > .MuiSvgIcon-root{
+    color: gray;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right .MuiSvgIcon-root{
+    font-size: 25px;
+    margin-right: 20px;
+    color: rgb(37, 37, 37);
+}
+.right .MuiAvatar-root{
+    height: 30px;
+    width: 30px;
+}
+.right .MuiSvgIcon-root:hover{
+    cursor: pointer;
+}
+
+/* XS Devices */
+@media(max-width:575px){
+    .header{
+        background-color: white;
+        width: 100%;
+    }
+    .header__content{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .header__input{
+        display: none;
+        align-items: center;
+        border: 1px solid lightgray;
+        background-color: rgb(241, 241, 241);
+        width: 220px;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+    }
+    .left > img{
+        margin-left: 20px;
+        height: 20px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+    }
+    .right .MuiSvgIcon-root{
+        font-size: 20px;
+        margin-right: 10px;
+        color: rgb(37, 37, 37);
+    }
+    .right .MuiAvatar-root{
+        height: 20px;
+        width: 20px;
+    }
+}
+/* SM Devices */
+@media(min-width:576px) and (max-width:765px){
+    .header{
+        background-color: white;
+        border-bottom: 1px solid lightgray;
+    }
+    .header__content{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .right .MuiSvgIcon-root{
+        font-size:25px;
+        margin-right: 20px;
+        color: rgb(37, 37, 37);
+    }
+    .right .MuiSvgIcon-root:hover{
+        cursor: pointer;
+    }
+}
+@media(min-width:766px) and (max-width:991px){
+    .header{
+        background-color: white;
+        border-bottom: 1px solid lightgray;
+    }
+    .header__content{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .right .MuiSvgIcon-root{
+        font-size:25px;
+        margin-right: 20px;
+        color: rgb(37, 37, 37);
+    }
+    .right .MuiSvgIcon-root:hover{
+        cursor: pointer;
+    }
+}
